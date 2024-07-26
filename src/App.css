@@ -1,0 +1,127 @@
+.logo{
+  width: 300px;
+}
+.tab1{
+  font-weight: bold;
+}
+
+.div-founder{
+  text-align: center;
+  margin-top: 100px;
+  
+}
+.p13-img{
+  border-radius: 360px;
+  width: 220px;
+}
+.h1all{
+  margin: 42px;
+  font-weight: 600;
+  color: #006838;
+  font-size: 40px;
+}
+
+p{
+  color: #A9B2C0;
+}
+.p-founder{
+  font-size: 18px;
+}
+/* courses css */
+.courses{
+  text-align: center;
+   box-shadow: 10px 10px 5px grey;
+}
+.courses1{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  align-content: center;
+  padding: 30px;
+}
+/* sliders css */
+.sliders{
+  text-align: center;
+}
+
+.sliders div {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the images in each row */
+  row-gap: 10px;
+  margin: 20px;
+}
+
+.slider-h1{
+  margin: 42px;
+  font-weight: 600;
+  color: #006838;
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+/* form css */
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 510px;
+}
+
+.contact-form-container h2 {
+  margin-bottom: 20px;
+  color: #797f89;
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin: 20px;
+}
+
+.form-group label {
+  color: #797f89;
+  
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #006838;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e9eceb;
+  color: #006838;
+}
+.span1{
+  color: red;
+}
+
+/* footer */
+
+.footer-last{
+  background-color: #F0FFF4;
+}
